@@ -1,0 +1,35 @@
+body{
+    background-color: darkgoldenrod;
+}
+.contenedorFoto{
+    width:100%; 
+    height: auto;
+    position:relative;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (max-width:320px)and (orientation:landscape){
+    .contenedorFoto{
+        background-image: url("img/dawn.png");
+    }
+}
+@media (max-width:480px)and (orientation:landscape){
+    .contenedorFoto{
+      background-image: url("img/kitten-large.png");
+    }
+}
+@media  (max-width:768px)and (orientation:landscape){
+    .contenedorFoto{
+       background-image: url("img/kitten-medium.png");
+    }
+}
+@media (max-width:1200px)and (orientation:landscape){
+    .contenedorFoto{
+       background-image:url("img/kitten-medium.png")
+    }
+}
+
+.imagen{
+    width:100%; 
+}
